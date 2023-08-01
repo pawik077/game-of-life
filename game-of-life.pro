@@ -1,0 +1,10 @@
+TEMPLATE = app
+TARGET = game-of-life
+QT += core gui
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+OBJECTS_DIR = obj
+MOC_DIR = moc
+INCLUDEPATH += inc
+HEADERS += inc/*.hh
+SOURCES += src/*.cpp
+first = ./game-of-life

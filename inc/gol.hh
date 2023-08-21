@@ -3,6 +3,6 @@
 
 #include "Grid.hh"
 
-void gol_step(Grid& grid);
+void golStep(Grid& grid);
 
 #endif

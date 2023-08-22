@@ -10,7 +10,7 @@ void Grid::resize(uint32_t width, uint32_t height) {
 
 std::ostream& operator<< (std::ostream& out, const Grid& grid) {
     for (uint32_t i = 0; i < grid.getWidth(); i++) {
-        for (uint32_t j = 0; j < grid.getWeight(); j++)
+        for (uint32_t j = 0; j < grid.getHeight(); j++)
             out << grid(i,j ) << " ";
         out << "\n";
     }

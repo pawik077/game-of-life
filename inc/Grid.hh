@@ -14,7 +14,7 @@ public:
     bool operator() (uint32_t x, uint32_t y) const { return cells[x + y * width]; }
     void operator() (uint32_t x, uint32_t y, bool value) { cells[x + y * width] = value; }
     const uint32_t& getWidth() const { return width; }
-    const uint32_t& getWeight() const { return height; }
+    const uint32_t& getHeight() const { return height; }
     void resize(uint32_t width, uint32_t height);
 };
 
